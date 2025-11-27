@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olamikun Asorona Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo" alt="Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi I'm <span>Olamikun</span> <br> from PG County, MD</h1>
+            <p>Web Developer</p>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="about-col1">
+            <img src="Images/user.png" alt="User Image">
+        </div>
+        <div class="about-col2">
+            <h1>About Me</h1>
+            <p>Write a short description about yourself here — your background, interests, and what you do.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <!-- Tab 1 -->
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span><br> Web App Development</li>
+                    <li><span>App Development</span><br> Building Android Apps</li>
+                </ul>
+            </div>
+
+            <!-- Tab 2 -->
+            <div class="tab-contents" id="Experiences">
+                <ul>
+                    <li><span>UI/UX</span><br> 3+ years creating user-friendly layouts</li>
+                    <li><span>Web Development</span><br> Built multiple responsive websites</li>
+                    <li><span>App Development</span><br> Experience with Android frameworks</li>
+                </ul>
+            </div>
+
+            <!-- Tab 3 -->
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>UI/UX</span><br> Design Certificates & Courses</li>
+                    <li><span>Web Development</span><br> HTML/CSS/JS Certification</li>
+                    <li><span>App Development</span><br> Mobile App Development Training</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services I Offer</h1>
+
+        <div class="services-list">
+            <div class="service-box">
+                <h2>Web Development</h2>
+                <p>I build responsive and modern websites using HTML, CSS, JavaScript, and various frameworks.
+                   My focus is clean code, strong UI, and user-friendly design.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>UI/UX Design</h2>
+                <p>I create sleek, intuitive, and visually appealing designs for both mobile and web applications.
+                   Every design is centered around user needs.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>App Development</h2>
+                <p>I develop functional Android apps using modern tools and mobile development best practices.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Website Maintenance</h2>
+                <p>Keeping websites updated, secure, and running smoothly with regular checks and improvements.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work-item">
+                <img src="Images/work-1.png" alt="Portfolio Image" class="work-image">
+            </div>
+            <div class="work-item">
+                <img src="Images/work-2.png" alt="Portfolio Image" class="work-image">
+            </div>
+            <div class="work-item">
+                <img src="Images/work-3.png" alt="Portfolio Image" class="work-image">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Resume Section -->
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-title">Resume</h1>
+        <p>You can view or download my resume below:</p>
+        <a href="Documents/Olamikun_Asorona_Resume.pdf" target="_blank" class="btn">View Resume</a>
+        <a href="Documents/Olamikun_Asorona_Resume.pdf" download class="btn">Download Resume</a>
+
+        <!-- Optional: Display resume content in-page -->
+        <div class="resume-content">
+            <h2>Olamikun Asorona</h2>
+            <p>Email: <a href="mailto:olamiasorona@gmail.com">olamiasorona@gmail.com</a> ❖ Phone: (301) 851-1211 ❖ Upper Marlboro, MD</p>
+
+            <h3>Education</h3>
+            <p><strong>Bowie State University</strong> (Sep 2022 – May 2026)<br>
+            Computer Technology, Bowie, MD<br>
+            3.4 GPA Junior Year<br>
+            Premier Scholar sponsored by PENN Entertainment<br>
+            SFEPD Student Ambassador: Educated students in underrepresented communities on financial literacy</p>
+
+            <h3>Work Experience</h3>
+            <p><strong>Health is Wealth Medical Services — Internship</strong><br>
+            Internship in Healthcare Informatics, Data Security, and Clinical Applications.<br>
+            - Applied HIPAA compliance standards and managed data permissions.<br>
+            - Provided clinical decision support to improve patient outcomes.<br>
+            - Managed electronic medical records using IntakeQ EMR.<br>
+            Tools: IntakeQ EMR, RingCentral, HIPAA Compliance Standards, Calendly, GoDaddy</p>
+
+            <p><strong>B.A.T.T.L.E Bowie State Internship</strong><br>
+            Collaborative Startup Project | Network Infrastructure Design.<br>
+            - Designed network architecture using Windows Server 2022.<br>
+            - Established secure Domain Controllers and optimized server access.<br>
+            - Ensured security protocols aligned with business operations.</p>
+
+            <p><strong>Mayo Clinic Class Project</strong><br>
+            Network Configuration & Security Implementation.<br>
+            - Configured secure network for medical and administrative systems.<br>
+            - Implemented firewalls, secure protocols, and access controls.</p>
+
+            <p><strong>Server Administration Class</strong><br>
+            Domain and Virtual Machine Configuration.<br>
+            - Connected multiple virtual machines to a single domain.<br>
+            - Configured server roles and optimized resources across VMs.</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Customer Service:</strong> Problem Solving, Time Management, Relationship Building</li>
+                <li><strong>Technical:</strong> Windows Server 2022, Network Security, Virtual Machines, Cisco Packet Tracer</li>
+                <li><strong>Software:</strong> Microsoft Office Suite</li>
+                <li><strong>Financial Literacy:</strong> Budgeting, Saving, Investing, Credit, Equity, Homeownership Education</li>
+                <li><strong>Other:</strong> Public Speaking, Team Collaboration</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <p>If you would like to get in touch, please fill out the form below:</p>
+        <form action="mailto:olamiasorona@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="6" required></textarea><br>
+
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </div>
+</div>
+
+
+<!-- Tab Script -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
