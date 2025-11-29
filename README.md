@@ -11,6 +11,6 @@ This site showcases my projects, skills, and resume. It's built with HTML, CSS, 
 
 ## Visit
 Check it out here: [Portfolio](https://olamiasorona.github.io/portfolio.html)
-![Website Screenshot](frame.png)
+<img src="frame.png" alt="Website Screenshot" width="400"/>
 ## Author
 Olamikun Asorona
