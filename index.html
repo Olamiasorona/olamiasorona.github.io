@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Olamikun Asorona Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Dialogflow Messenger Script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body>
 
@@ -42,36 +44,36 @@
                 <p class="tab-links" onclick="opentab('Education')">Education</p>
             </div>
 
-            <!-- Tab 1 -->
+            <!-- Skills Tab -->
             <div class="tab-contents active-tab" id="Skills">
-    <ul>
-        <li><span>Cybersecurity</span><br> Network fundamentals, security best practices, threat awareness</li>
-        <li><span>Programming</span><br> Python, Java, HTML, CSS, JavaScript</li>
-        <li><span>Database Management</span><br> MySQL, relational schema design, PHPMyAdmin</li>
-        <li><span>Web Development</span><br> Responsive website design and implementation</li>
-        <li><span>Technical Tools</span><br> Git/GitHub, Linux, Windows, VS Code</li>
-    </ul>
-</div>
-    <!--Experiences--->
+                <ul>
+                    <li><span>Cybersecurity</span><br> Network fundamentals, security best practices, threat awareness</li>
+                    <li><span>Programming</span><br> Python, Java, HTML, CSS, JavaScript</li>
+                    <li><span>Database Management</span><br> MySQL, relational schema design, PHPMyAdmin</li>
+                    <li><span>Web Development</span><br> Responsive website design and implementation</li>
+                    <li><span>Technical Tools</span><br> Git/GitHub, Linux, Windows, VS Code</li>
+                </ul>
+            </div>
+
+            <!-- Experiences Tab -->
             <div class="tab-contents" id="Experiences">
-    <ul>
-        <li><span>Cybersecurity Research</span><br> Analyzed foreign cybersecurity campaigns and defense strategies for academic projects</li>
-        <li><span>Database Projects</span><br> Designed scenarios, E-R diagrams, relational schemas, and full MySQL implementations</li>
-        <li><span>Web Development</span><br> Created personal portfolio site and interactive UI components</li>
-        <li><span>Coursework Projects</span><br> Completed team-based and individual assignments in programming and data analysis</li>
-    </ul>
-</div>
+                <ul>
+                    <li><span>Cybersecurity Research</span><br> Analyzed foreign cybersecurity campaigns and defense strategies for academic projects</li>
+                    <li><span>Database Projects</span><br> Designed scenarios, E-R diagrams, relational schemas, and full MySQL implementations</li>
+                    <li><span>Web Development</span><br> Created personal portfolio site and interactive UI components</li>
+                    <li><span>Coursework Projects</span><br> Completed team-based and individual assignments in programming and data analysis</li>
+                </ul>
+            </div>
 
-
-            <!-- Tab 3 -->
+            <!-- Education Tab -->
             <div class="tab-contents" id="Education">
-    <ul>
-        <li><span>Bowie State University</span><br> B.S. in Computer Technology — Expected May 2026</li>
-        <li><span>GPA</span><br> 3.4 Senior Year</li>
-        <li><span>Premier Scholar</span><br> First student sponsored by PENN Entertainment</li>
-        <li><span>Relevant Coursework</span><br> Cybersecurity, Database Systems, Web Development, Programming</li>
-    </ul>
-</div>
+                <ul>
+                    <li><span>Bowie State University</span><br> B.S. in Computer Technology — Expected May 2026</li>
+                    <li><span>GPA</span><br> 3.4 Senior Year</li>
+                    <li><span>Premier Scholar</span><br> First student sponsored by PENN Entertainment</li>
+                    <li><span>Relevant Coursework</span><br> Cybersecurity, Database Systems, Web Development, Programming</li>
+                </ul>
+            </div>
 
         </div>
     </div>
@@ -81,25 +83,21 @@
 <div id="services">
     <div class="container">
         <h1 class="sub-title">Services I Offer</h1>
-
         <div class="services-list">
             <div class="service-box">
                 <h2>Web Development</h2>
                 <p>I build responsive and modern websites using HTML, CSS, JavaScript, and various frameworks.
                    My focus is clean code, strong UI, and user-friendly design.</p>
             </div>
-
             <div class="service-box">
                 <h2>UI/UX Design</h2>
                 <p>I create sleek, intuitive, and visually appealing designs for both mobile and web applications.
                    Every design is centered around user needs.</p>
             </div>
-
             <div class="service-box">
                 <h2>App Development</h2>
                 <p>I develop functional Android apps using modern tools and mobile development best practices.</p>
             </div>
-
             <div class="service-box">
                 <h2>Website Maintenance</h2>
                 <p>Keeping websites updated, secure, and running smoothly with regular checks and improvements.</p>
@@ -108,27 +106,19 @@
     </div>
 </div>
 
-
 <!-- Portfolio Section -->
 <div id="portfolio">
     <div class="container">
         <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
-            <div class="work-item">
-                <img src="Projects/Health_Med.png" alt="Portfolio Image" class="work-image">
-            </div>
-            <div class="work-item">
-                <img src="Projects/Mayo_Clinic.png" alt="Portfolio Image" class="work-image">
-            </div>
-            <div class="work-item">
-                <img src="Projects/MIT_APP.jpg" alt="Portfolio Image" class="work-image">
-            </div>
-            <div class="work-item">
-                <img src="Projects/MIT_APP2.jpg" alt="Portfolio Image" class="work-image">
-            </div>
+            <div class="work-item"><img src="Projects/Health_Med.png" alt="Portfolio Image" class="work-image"></div>
+            <div class="work-item"><img src="Projects/Mayo_Clinic.png" alt="Portfolio Image" class="work-image"></div>
+            <div class="work-item"><img src="Projects/MIT_APP.jpg" alt="Portfolio Image" class="work-image"></div>
+            <div class="work-item"><img src="Projects/MIT_APP2.jpg" alt="Portfolio Image" class="work-image"></div>
         </div>
     </div>
 </div>
+
 <!-- Resume Section -->
 <div id="resume">
     <div class="container">
@@ -136,52 +126,6 @@
         <p>You can view or download my resume below:</p>
         <a href="Documents/Olamikun_Asorona_Resume.pdf" target="_blank" class="btn">View Resume</a>
         <a href="Documents/Olamikun_Asorona_Resume.pdf" download class="btn">Download Resume</a>
-
-        <!-- Optional: Display resume content in-page -->
-        <div class="resume-content">
-            <h2>Olamikun Asorona</h2>
-            <p>Email: <a href="mailto:olamiasorona@gmail.com">olamiasorona@gmail.com</a> ❖ Phone: (301) 851-1211 ❖ Upper Marlboro, MD</p>
-
-            <h3>Education</h3>
-            <p><strong>Bowie State University</strong> (Sep 2022 – May 2026)<br>
-            Computer Technology, Bowie, MD<br>
-            3.4 GPA Junior Year<br>
-            Premier Scholar sponsored by PENN Entertainment<br>
-            SFEPD Student Ambassador: Educated students in underrepresented communities on financial literacy</p>
-
-            <h3>Work Experience</h3>
-            <p><strong>Health is Wealth Medical Services — Internship</strong><br>
-            Internship in Healthcare Informatics, Data Security, and Clinical Applications.<br>
-            - Applied HIPAA compliance standards and managed data permissions.<br>
-            - Provided clinical decision support to improve patient outcomes.<br>
-            - Managed electronic medical records using IntakeQ EMR.<br>
-            Tools: IntakeQ EMR, RingCentral, HIPAA Compliance Standards, Calendly, GoDaddy</p>
-
-            <p><strong>B.A.T.T.L.E Bowie State Internship</strong><br>
-            Collaborative Startup Project | Network Infrastructure Design.<br>
-            - Designed network architecture using Windows Server 2022.<br>
-            - Established secure Domain Controllers and optimized server access.<br>
-            - Ensured security protocols aligned with business operations.</p>
-
-            <p><strong>Mayo Clinic Class Project</strong><br>
-            Network Configuration & Security Implementation.<br>
-            - Configured secure network for medical and administrative systems.<br>
-            - Implemented firewalls, secure protocols, and access controls.</p>
-
-            <p><strong>Server Administration Class</strong><br>
-            Domain and Virtual Machine Configuration.<br>
-            - Connected multiple virtual machines to a single domain.<br>
-            - Configured server roles and optimized resources across VMs.</p>
-
-            <h3>Skills</h3>
-            <ul>
-                <li><strong>Customer Service:</strong> Problem Solving, Time Management, Relationship Building</li>
-                <li><strong>Technical:</strong> Windows Server 2022, Network Security, Virtual Machines, Cisco Packet Tracer</li>
-                <li><strong>Software:</strong> Microsoft Office Suite</li>
-                <li><strong>Financial Literacy:</strong> Budgeting, Saving, Investing, Credit, Equity, Homeownership Education</li>
-                <li><strong>Other:</strong> Public Speaking, Team Collaboration</li>
-            </ul>
-        </div>
     </div>
 </div>
 
@@ -193,52 +137,38 @@
         <form action="mailto:olamiasorona@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name</label><br>
             <input type="text" id="name" name="name" required><br>
-
             <label for="email">Email</label><br>
             <input type="email" id="email" name="email" required><br>
-
             <label for="message">Message</label><br>
             <textarea id="message" name="message" rows="6" required></textarea><br>
-
             <input type="submit" value="Send Message" class="btn">
         </form>
     </div>
 </div>
 
-
-<!-- Tab Script -->
+<!-- Tabs Script -->
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
 
     function opentab(tabname) {
-        for (let tablink of tablinks) {
-            tablink.classList.remove("active-link");
-        }
-        for (let tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
+        for (let tablink of tablinks) tablink.classList.remove("active-link");
+        for (let tabcontent of tabcontents) tabcontent.classList.remove("active-tab");
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
+</script>
 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<!-- Dialogflow Chatbot -->
 <df-messenger
-  intent="WELCOME"
-  chat-title="OlamikunBot"
-  agent-id="0c76ea2b-f9b4-46df-a43f-064b99c81799"
-  language-code="en"
-></df-messenger>
-
-
+    intent="WELCOME"
+    chat-title="OlamikunBot"
+    agent-id="0c76ea2b-f9b4-46df-a43f-064b99c81799"
+    language-code="en">
+</df-messenger>
 
 </body>
 </html>
-
-
-
-
-
 
 
 
