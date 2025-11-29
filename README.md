@@ -2,7 +2,7 @@
 # Olamikun Asorona Portfolio
 
 Welcome to my personal portfolio website!  
-
+![Website Screenshot](frame.png)
 This site showcases my projects, skills, and resume. It's built with HTML, CSS, and JavaScript, and is designed to be simple, responsive, and easy to navigate.  
 
 ## Features
