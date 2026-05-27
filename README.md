@@ -9,6 +9,13 @@ This site showcases my projects, skills, and resume. It's built with HTML, CSS, 
 - Explore my projects and portfolio
 - Contact form to get in touch
 
+## Projects and experience
+- Health is Wealth Internship
+- Window's Server and VM project
+- Active Directory Project
+- Mayo Clinic Project
+- MIT App Inventor Project
+
 ## Visit
 Check it out here: [Portfolio](https://olamiasorona.github.io/portfolio.html)
 <img src="frame.png" alt="Website Screenshot" width="400"/>
